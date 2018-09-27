@@ -1,0 +1,1 @@
+# BUMIC_rasa_template
