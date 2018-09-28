@@ -6,7 +6,7 @@ https://medium.com/@Zack.hardtoname/rasa-mechanism-work-flow-simply-explained-b4
 
 #### Installation
 
-1. Launch your IDE with administrative permission. It is strongly recommended that you create a virtual environment. Install dependencies by running `$pip install -r requirements.txt`
+1. Launch your IDE with administrative permission. It is strongly recommended that you create a virtual environment. Install dependencies by running `$pip install -r requirements.txt` (or `python.exe -m pip install -r requirements.txt` in Windows command prompt)
 
 2. * If that doesn't work, run in terminal:
 
