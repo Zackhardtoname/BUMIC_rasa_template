@@ -4,21 +4,30 @@
 
 https://medium.com/@Zack.hardtoname/rasa-mechanism-work-flow-simply-explained-b44e85d5a6f1
 
-#### Installation
+#### Installation (Please ask Zack if you have any questions at all)
 
-1. Launch your IDE with administrative permission. It is strongly recommended that you create a virtual environment. Install dependencies by running `$pip install -r requirements.txt` (or `python.exe -m pip install -r requirements.txt` in Windows command prompt)
+1. Launch your IDE with administrative permission. 
 
-2. * If that doesn't work, run in terminal:
+2. It is strongly recommended [seriously] that you create a virtual environment. 
 
-     `pip install rasa_nlu[spacy]`
-      `python -m spacy download en_core_web_lg`
-      `python -m spacy link en_core_web_lg en`
+3. Enter your terminal/command prompt
 
-     `pip install rasa-core==0.10.4`
+4. Install dependencies by running `pip install -r requirements.txt`
 
-     `pip install rasa_core_sdk`
+5. **[Do this step only if the last step  doesn't work] Recreate a new virtual environment and run in terminal:**
 
-   * To find more information about individual packages from the requiements.txt you can use `$pip show <packagename>.`
+   1. `	pip install rasa_nlu[spacy]`
+
+   2. `	pip install rasa-core==0.10.4`
+
+   3. `pip install rasa_core_sdk`
+
+6. Install your choice language model by changing the letter "lg" to "md" or "sm". The larger the language model is, the more efficient Rasa is at recognizing sentence meanings so "lg" (about 800 mb) is preferred. For more info like other languages: https://spacy.io/models/en
+
+   1.  `python -m spacy download en_core_web_lg`
+   2.  ` python -m spacy link en_core_web_lg en`	
+
+To find more information about individual packages from the requiements.txt you can use `pip show <packagename>.`
 
 #### Main Files
 
@@ -72,6 +81,10 @@ https://medium.com/@Zack.hardtoname/rasa-mechanism-work-flow-simply-explained-b4
 #### Support
 
 ​	zackL@bu.edu
+
+#### About the Author
+
+​	https://zackLight.com
 
 #### Sources
 
